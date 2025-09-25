@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mide Ibraheem — Software Engineer</title>
+  <meta name="description" content="Software Engineer — Python • TypeScript — AI, Cloud, Systems. Projects: Percepta, CleanBites, Automated Web Accessibility." />
+  <meta property="og:title" content="Mide Ibraheem — Software Engineer" />
+  <meta property="og:description" content="Python • TypeScript • AI • Cloud • Systems. Projects: Percepta, CleanBites, Automated Web Accessibility." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://mide0x.github.io" />
+  <meta name="theme-color" content="#0f172a" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>⚙️</text></svg>">
+  <style>
+    :root {
+      --bg: #0b0f19;       /* slate-950 */
+      --surface: #0f172a;  /* slate-900 */
+      --muted: #94a3b8;    /* slate-400 */
+      --text: #e2e8f0;     /* slate-200 */
+      --brand: #22d3ee;    /* cyan-400 */
+      --brand-2: #60a5fa;  /* blue-400 */
+      --ring: rgba(34,211,238,.5);
+      --card: #0b1220;
+      --shadow: 0 10px 30px rgba(0,0,0,.35);
+    }
+    @media (prefers-color-scheme: light) {
+      :root { --bg:#ffffff; --surface:#f8fafc; --text:#0f172a; --muted:#475569; --card:#ffffff; }
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Inter,Ubuntu,"Helvetica Neue",Arial,sans-serif}
+    a{color:inherit;text-decoration:none}
+    .container{max-width:1100px;margin:0 auto;padding:28px}
+    /* header */
+    header{position:sticky;top:0;z-index:50;background:linear-gradient(to bottom,rgba(11,15,25,.9),rgba(11,15,25,.6) 60%,transparent)}
+    .nav{display:flex;align-items:center;justify-content:space-between;gap:16px}
+    .brand{display:flex;align-items:center;gap:10px;font-weight:700}
+    .logo{width:30px;height:30px;border-radius:10px;background:linear-gradient(135deg,var(--brand),var(--brand-2));box-shadow:0 6px 18px rgba(34,211,238,.35)}
+    .nav a{opacity:.85}
+    .nav a:hover{opacity:1}
+    .actions a{padding:10px 14px;border-radius:12px;background:linear-gradient(135deg,rgba(34,211,238,.1),rgba(96,165,250,.1));border:1px solid rgba(148,163,184,.2)}
+    /* hero */
+    .hero{display:grid;grid-template-columns:1.2fr .8fr;gap:28px;align-items:center;padding:70px 0}
+    .badge{display:inline-flex;align-items:center;gap:8px;padding:6px 10px;border-radius:999px;background:rgba(148,163,184,.1);border:1px solid rgba(148,163,184,.2);font-size:12px;color:var(--muted)}
+    h1{font-size:42px;line-height:1.1;margin:16px 0 12px}
+    .lead{font-size:18px;color:var(--muted)}
+    .cta{display:flex;gap:12px;margin-top:22px}
+    .btn{padding:12px 16px;border-radius:12px;font-weight:600;border:1px solid rgba(148,163,184,.25);background:linear-gradient(135deg,rgba(34,211,238,.12),rgba(96,165,250,.1));box-shadow:var(--shadow)}
+    .btn:hover{transform:translateY(-1px)}
+    .btn.secondary{background:transparent}
+    .card{background:linear-gradient(180deg,var(--surface),var(--card));border:1px solid rgba(148,163,184,.2);border-radius:16px;padding:18px;box-shadow:var(--shadow)}
+    /* sections */
+    section{padding:26px 0}
+    h2{font-size:22px;margin:0 0 14px}
+    .grid{display:grid;gap:16px}
+    .grid.cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}
+    .grid.cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}
+    .pill{display:inline-block;padding:6px 10px;border-radius:999px;background:rgba(148,163,184,.12);border:1px solid rgba(148,163,184,.2);font-size:12px;color:var(--muted);margin:4px 6px 0 0}
+    .project{display:flex;flex-direction:column;gap:10px}
+    .project a.more{font-weight:600}
+    .footer{padding:40px 0;color:var(--muted);font-size:14px}
+    .split{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+    @media (max-width:900px){.hero{grid-template-columns:1fr}.grid.cols-3{grid-template-columns:1fr 1fr}.split{grid-template-columns:1fr}}
+    @media (max-width:600px){.grid.cols-2{grid-template-columns:1fr}}
+    /* focus */
+    :focus-visible{outline:2px solid var(--brand);outline-offset:2px;box-shadow:0 0 0 6px var(--ring)}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="brand"><span class="logo" aria-hidden="true"></span> Mide Ibraheem</div>
+      <nav class="actions" aria-label="Primary">
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+        <a href="https://github.com/mide0x" target="_blank" rel="noopener">GitHub ↗</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div>
+        <span class="badge">Python • TypeScript • AI • Cloud</span>
+        <h1>Software Engineer building AI‑aware backends and clean frontends.</h1>
+        <p class="lead">I work across Python, TypeScript, Node.js, FastAPI, React, and AWS. Right now I'm building <strong>Percepta</strong> — a vision‑based browser agent that sees and acts like a human.</p>
+        <div class="cta">
+          <a class="btn" href="#projects">See Projects</a>
+          <a class="btn secondary" href="#contact">Contact</a>
+        </div>
+      </div>
+      <div class="card" role="img" aria-label="Abstract hero graphic">
+        <svg viewBox="0 0 600 320" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+              <stop offset="0%" stop-color="#22d3ee"/>
+              <stop offset="100%" stop-color="#60a5fa"/>
+            </linearGradient>
+          </defs>
+          <rect x="0" y="0" width="600" height="320" rx="14" fill="#0b1220"/>
+          <g opacity=".9">
+            <circle cx="120" cy="90" r="70" fill="url(#g)" opacity=".25"/>
+            <circle cx="520" cy="200" r="110" fill="url(#g)" opacity=".18"/>
+            <rect x="120" y="160" width="360" height="110" rx="10" fill="#101827" stroke="rgba(148,163,184,.35)"/>
+            <rect x="140" y="180" width="160" height="14" rx="7" fill="url(#g)"/>
+            <rect x="140" y="202" width="280" height="10" rx="5" fill="rgba(148,163,184,.6)"/>
+            <rect x="140" y="222" width="220" height="10" rx="5" fill="rgba(148,163,184,.35)"/>
+          </g>
+        </svg>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="grid cols-3">
+        <article class="card project">
+          <div>
+            <h3>Percepta (In Progress)</h3>
+            <p>Vision‑based browser automation. The agent observes screenshots, reasons about UI, then acts via precise clicks/typing.</p>
+            <ul>
+              <li><strong>Architecture:</strong> Eyes (Playwright ➜ VLM), Hands (PyAutoGUI + OpenCV), Brain (loop)</li>
+              <li><strong>MVP:</strong> End‑to‑end login on GitHub using perception only</li>
+              <li><strong>Next:</strong> YOLO for detection + VLM for reasoning</li>
+            </ul>
+          </div>
+          <div>
+            <span class="pill">Python</span>
+            <span class="pill">Playwright</span>
+            <span class="pill">OpenCV</span>
+            <span class="pill">PyAutoGUI</span>
+            <span class="pill">VLM</span>
+          </div>
+          <a class="more" href="#contact">Follow progress →</a>
+        </article>
+
+        <article class="card project">
+          <div>
+            <h3>CleanBites WebApp</h3>
+            <p>Restaurant discovery platform combining UK hygiene ratings with Google Places data and fast full‑text search.</p>
+            <ul>
+              <li>20K+ restaurant entries</li>
+              <li>Optimized search & indexing</li>
+            </ul>
+          </div>
+          <div>
+            <span class="pill">TypeScript</span>
+            <span class="pill">React</span>
+            <span class="pill">Postgres</span>
+            <span class="pill">Docker</span>
+          </div>
+          <a class="more" href="https://cleanbites.uk" target="_blank" rel="noopener">Live demo ↗</a>
+        </article>
+
+        <article class="card project">
+          <div>
+            <h3>Automated Web Accessibility</h3>
+            <p>AI‑aided automation that fixes common accessibility violations at scale using headless browsing.</p>
+            <ul>
+              <li>~85% rectification across 200 webpages</li>
+              <li>Fast audits via Puppeteer</li>
+            </ul>
+          </div>
+          <div>
+            <span class="pill">Node.js</span>
+            <span class="pill">Puppeteer</span>
+            <span class="pill">LLM</span>
+          </div>
+          <a class="more" href="https://github.com/mide0x/GPT_LLAMA_Web_Accessibility_Code" target="_blank" rel="noopener">Code repo ↗</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="split">
+        <div class="card">
+          <h3>Core</h3>
+          <p>
+            Python, TypeScript, JavaScript, SQL · FastAPI, Node.js, React · AWS (EC2, S3, Athena, Lambda) · Docker · Redis · BullMQ · PostgreSQL, MongoDB, TimescaleDB · Pandas
+          </p>
+        </div>
+        <div class="card">
+          <h3>Focus Areas</h3>
+          <p>
+            Backend systems, vision‑based automation, AI integrations, real‑time data, performance tuning, and pragmatic DX.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <div class="card">
+        <p>
+          Email: <a href="mailto:mideibraheem@gmail.com">mideibraheem@gmail.com</a> · LinkedIn: <a href="https://linkedin.com/in/mideibrahim" target="_blank" rel="noopener">mideibrahim</a> · GitHub: <a href="https://github.com/mide0x" target="_blank" rel="noopener">mide0x</a>
+        </p>
+        <p>
+          Resume (PDF): <a href="/resume.pdf">Download</a> (place your file as <code>resume.pdf</code> in the repo root)
+        </p>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div>© <span id="y"></span> Mide Ibraheem • Built with plain HTML/CSS. Deployed on GitHub Pages.</div>
+    </footer>
+  </main>
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

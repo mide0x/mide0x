@@ -7,20 +7,14 @@ Right now: developing **Percepta**, a vision-based browser agent framework, whil
 
 ---
 
-## 🔧 Tech I Work With
+## 🔧 Tech I've Work With
 - **Languages**: Python, TypeScript, JavaScript, SQL  
 - **Frameworks**: FastAPI, Node.js, React  
-- **Cloud & Infra**: AWS (EC2, S3, Athena, Lambda), Docker, Redis, BullMQ  
-- **Data**: Pandas, PostgreSQL, MongoDB, TimescaleDB  
-
 ---
 
 ## 📌 Featured Projects
 ### 👁️ Percepta (In Progress)  
-A vision-based browser automation framework where AI agents interact with the web visually — like a human — instead of parsing DOM code.  
-- **Architecture**: "Eyes" (Playwright screenshots → VLM), "Hands" (PyAutoGUI + OpenCV), "Brain" (action loop).  
-- **MVP Goal**: Automate multi-step tasks such as logging into GitHub entirely through perception + action.  
-- **Future Direction**: YOLO for detection + VLMs for reasoning.  
+A vision-based browser automation framework where AI agents interact with the web visually like a human instead of parsing DOM code. 
 
 ### 🍴 CleanBites WebApp  
 A restaurant discovery platform integrating UK hygiene ratings with Google Places API.  

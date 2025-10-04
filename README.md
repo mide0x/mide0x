@@ -42,4 +42,4 @@ AI-powered automation tool that fixes accessibility violations in real time.
 
 ---
 
-> *“Not your weights, not your brain.”* – A motto I believe in for open-source AI.  
+> *“How can I lose when I came here with NOTHING?”* – A motto I believe in.  
